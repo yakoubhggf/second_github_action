@@ -14,3 +14,9 @@ jobs:
     steps:
       - name: Print a welcome message
         run: echo "munira_el_3tibi"
+
+      - name: Checkout repository
+        uses: actions/checkout@v5.0.0
+
+      - name: list repository files
+        run: ls -la
